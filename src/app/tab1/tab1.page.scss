@@ -1,0 +1,23 @@
+#categorias-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 175px;
+
+  a{
+    min-width: 150px;
+    flex: 1;
+    font-weight: bold;
+    margin: 10px 10px;
+    padding: 60px 20px;      
+    text-align: center;
+    border-radius: 10px ;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+    display: block;
+  }
+}
